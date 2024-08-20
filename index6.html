@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>forms</h1>
+  <form autocomplete="off">
+    <div>
+      <label for="firstname">vaše jméno</label>
+      <input id="firstname" name="firstname" type="text" placeholder="Jméno"> <!-- !!! self-closing-->
+    </div>
+    <div>
+      <label for="myEmail">váš email</label>
+      <input id="myEmail" name="myEmail" type="email" placeholder="jmeno@server.domena">
+    </div>
+    <div>
+      <label for="birthDate">datum narození</label>
+      <input
+        id="birthDate"
+        name="birthDate"
+        type="text"
+        placeholder="RRRR/MM/DD"
+        autofocus
+      >
+    </div>
+    <div>
+      <label for="yourComment">napište nám něco</label>
+      <textarea id="yourComment" name="yourComment" rows="10" cols="50"></textarea>
+    </div>
+    <div>
+      <label for="city">city</label>
+      <select id="city">
+        <option value=""></option>
+        <option value="1">Praha</option>
+        <option value="2">Brno</option>
+        <option value="3">Plzeň</option>
+      </select>
+    </div>
+    <div>
+      <button type="button">toto tlačítko neodesílá</button>
+      <button type="submit">odeslat</button>
+    </div>
+    <!--
+
+      {
+        firstname: 'Karel',
+        city: 1,
+      }
+
+     -->
+
+
+
+    <!-- <div>
+      <input type="number">
+    </div>
+    <div>
+      <input type="password">
+    </div>
+    <div>
+      <input type="email">
+    </div>
+    <div>
+      <input type="url">
+    </div>
+    <div>
+      <input type="date">
+    </div>
+    <div>
+      <input type="time">
+    </div>
+    <div>
+      <input type="radio">
+    </div>
+    <div>
+      <input type="checkbox">
+    </div>
+    <div>
+      <input type="button" value="input tlačítko">
+    </div>
+    <div>
+      <input type="submit" value="submit tlačítko">
+    </div>
+    <div>
+      <button>tlačítko</button>
+    </div> -->
+  </form>
+</body>
+</html>

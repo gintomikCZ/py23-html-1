@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    td, th {
+      border: 1px solid #cdcdcd;
+      padding: .35em .7em;
+    }
+    table {
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+<body>
+  <h1>my table</h1>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3">zaměstnanci</th>
+        </tr>
+        <tr>
+          <th>jméno</th>
+          <th>pozice</th>
+          <th>mzda</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Karel Houska</td>
+          <td>manažer</td>
+          <td>5500</td>
+        </tr>
+        <tr>
+          <td>Pavel Novák</td>
+          <td>řidič</td>
+          <td>3900</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th rowspan="2">celkem</th>
+          <th colspan="2">2</th>
+        </tr>
+        <tr>
+          <!-- <th>celkem mzdy</th> -->
+          <th colspan="2">9400</th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</body>
+</html>
